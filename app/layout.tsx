@@ -24,7 +24,7 @@ export default function RootLayout({
 		<html lang="en">
 			<body
 				className={cn(
-					'pt-[4.75rem] lg:pt-[5.25rem] overflow-hidden antialiased',
+					'pt-[4.75rem] lg:pt-[5.25rem] antialiased',
 					fontSans.variable
 				)}
 			>

@@ -3,8 +3,8 @@ import TagLine from './tagline'
 interface HeadingProps {
 	className: string
 	title: string
-	text: string
-	tag: string
+	text?: string
+	tag?: string
 }
 
 const Heading = ({ className, title, text, tag }: HeadingProps) => {
